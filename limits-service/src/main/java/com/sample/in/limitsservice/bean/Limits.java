@@ -1,0 +1,34 @@
+package com.sample.in.limitsservice.bean;
+
+public class Limits {
+
+	private int maximum;
+	private int minimum;
+
+	public Limits() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Limits(int maximum, int minimum) {
+		super();
+		this.maximum = maximum;
+		this.minimum = minimum;
+	}
+
+	public int getMaximum() {
+		return maximum;
+	}
+
+	public void setMaximum(int maximum) {
+		this.maximum = maximum;
+	}
+
+	public int getMinimum() {
+		return minimum;
+	}
+
+	public void setMinimum(int minimum) {
+		this.minimum = minimum;
+	}
+
+}
